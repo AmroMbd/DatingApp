@@ -1,3 +1,9 @@
+dotnet watch run  ----> ctrl c
+
+np start ---- or ---- ng serve
+
+git rm appsettings.json --cached
+---------
 'node_modules' file has the packages for the app
 but no need to move them when cloning the app because it's large number of files
 instead 'package.json' has all the package and version -->
@@ -5,3 +11,15 @@ so by typing 'npm install' after cloning the app, all the required packages shou
 
 -------------------
 
+add migration:
+dotnet ef migrations add name
+
+update DB:
+dotnet ef database update
+
+------------------
+
+userSecret ==> protection (instead of AppSettings.json) 
+[S3-vid15]
+
+------------------
