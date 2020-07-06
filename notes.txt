@@ -1,0 +1,7 @@
+'node_modules' file has the packages for the app
+but no need to move them when cloning the app because it's large number of files
+instead 'package.json' has all the package and version -->
+so by typing 'npm install' after cloning the app, all the required packages should be installed(based on 'package.json')
+
+-------------------
+
