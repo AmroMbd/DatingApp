@@ -4,6 +4,11 @@ np start ---- or ---- ng serve
 
 git rm appsettings.json --cached
 ---------
+
+to commit -->
+name it --> ctrl enter --> push to github
+
+---------
 'node_modules' file has the packages for the app
 but no need to move them when cloning the app because it's large number of files
 instead 'package.json' has all the package and version -->
