@@ -4,9 +4,10 @@ np start ---- or ---- ng serve
 
 git rm appsettings.json --cached
 ---------
-
+format == alt shift f
+---------
 to commit -->
-name it --> ctrl enter --> push to github
+name it --> ctrl enter --> 'push to' github
 
 ---------
 'node_modules' file has the packages for the app
@@ -28,3 +29,16 @@ userSecret ==> protection (instead of AppSettings.json)
 [S3-vid15]
 
 ------------------
+
+in 'launchSettings.json'
+
+        "ASPNETCORE_ENVIRONMENT": "Development"
+
+or
+
+        "ASPNETCORE_ENVIRONMENT": "Production"
+
+-------------------
+
+
+
