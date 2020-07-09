@@ -42,5 +42,10 @@ or
 
 -------------------
 
+creating a guard: (after cd to guards folder)
+
+ng g guard gyardName --skipTests
+
+--------------------
 
 
