@@ -1,3 +1,5 @@
+code . ===> open this floder in vs code
+-------------------
 dotnet watch run  ----> ctrl c
 
 np start ---- or ---- ng serve

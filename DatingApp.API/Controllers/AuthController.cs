@@ -25,7 +25,7 @@ namespace DatingApp.API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody]UserForRegisterDto userForRegisterDto)
+        public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
         {
            // if(!ModelState.IsValid)
             // return BadRequest(ModelState);
@@ -48,7 +48,7 @@ namespace DatingApp.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
-            throw new Exception("Computer says no!");
+            //throw new Exception("Computer says no!");
             
             var userFromRepo = await _repo.Login(userForLoginDto.Username, userForLoginDto.Password);
 
