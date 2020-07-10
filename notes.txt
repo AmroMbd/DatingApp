@@ -1,6 +1,6 @@
 code . ===> open this floder in vs code
 -------------------
-dotnet watch run  ----> ctrl c
+dotnet watch run  ----> ctrl c (to close)
 
 np start ---- or ---- ng serve
 
@@ -24,6 +24,9 @@ dotnet ef migrations add name
 
 update DB:
 dotnet ef database update
+
+remove the DB:
+dotnet ef database drop
 
 ------------------
 
