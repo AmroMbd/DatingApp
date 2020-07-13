@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  registerMode=false;
+  registerMode = false;
   // values:any;
 
   constructor(private http:HttpClient) { }

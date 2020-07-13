@@ -51,4 +51,15 @@ ng g guard gyardName --skipTests
 
 --------------------
 
+https://getbootstrap.com/
 
+https://bootswatch.com/
+
+https://valor-software.com/ngx-bootstrap/#/documentation#getting-started
+
+https://github.com/auth0/angular2-jwt
+
+https://www.npmjs.com/package/ngx-gallery
+( npm install @kolkov/ngx-gallery --save )
+
+--------------------

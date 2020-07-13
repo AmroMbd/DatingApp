@@ -9,8 +9,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
-  model:any = {};
-  
+  model: any = {}; 
   constructor(public authService:AuthService, private alertify: AlertifyService, private router:Router) { }
 
   ngOnInit() {
