@@ -1,6 +1,13 @@
 <div class="container mt-4">
   <div class="row">
+    <div class="col-sm-4">
     <h1>Your profile</h1>
+    </div>
+    <div class="col-sm-8">
+      <div *ngIf="editForm.dirty" class="alert alert-info">
+        <p><strong>Information: </strong>You have made changes. Anu unsaved changes will be lost!</p>
+      </div>
+    </div>
   </div>
   <div class="row">
     <div class="col-sm-4">
@@ -25,10 +32,7 @@
           </div>
         </div>
         <div class="card-footer">
-          <div class="btn-group d-flex">
-            <button class="btn btn-primary w-100">Like</button>
-            <button class="btn btn-success w-100">Message</button>
-          </div>
+            <button [disabled]="!editForm.dirty" form="editForm" class="btn btn-success btn-block">Save Changes </button>
         </div>
       </div>
     </div>
@@ -36,7 +40,7 @@
       <div class="tab-panel">
         <tabset class="member-tabset">
           <tab heading="Edit Profile">
-            <form>
+            <form #editForm="ngForm" id="editForm" (ngSubmit)="updateuser()">
               <h4>Description</h4>
               <textarea name="introduction" rows="6" class="form-control" 
               [(ngModel)]="user.introduction"></textarea>
