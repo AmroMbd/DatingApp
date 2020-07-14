@@ -61,5 +61,6 @@ https://github.com/auth0/angular2-jwt
 
 https://www.npmjs.com/package/ngx-gallery
 ( npm install @kolkov/ngx-gallery --save )
+https://github.com/kolkov/ngx-gallery
 
 --------------------

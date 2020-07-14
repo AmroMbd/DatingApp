@@ -27,8 +27,6 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
 import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 
-
-
 export function tokenGetter(){
    return localStorage.getItem('token');
 }
@@ -52,7 +50,6 @@ export function tokenGetter(){
       MemberCardComponent,
       MemberDetailComponent,
       MemberEditComponent
-
    ],
    imports: [
       BrowserModule,
@@ -69,7 +66,7 @@ export function tokenGetter(){
            allowedDomains: ['localhost:5000'],
            disallowedRoutes: ['localhost:5000/api/auth'],
          },
-       }),
+       })
    ],
    providers: [
       AuthService,
@@ -78,7 +75,8 @@ export function tokenGetter(){
       MemberListResolver,
       MemberEditResolver,
       PreventUnsavedChanges
-     // { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }
+
+   //   { provide: HAMMER_GESTURE_CONFIG, useClass: CustomHammerConfig }
 
    ],
    bootstrap: [
