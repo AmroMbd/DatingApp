@@ -63,4 +63,13 @@ https://www.npmjs.com/package/ngx-gallery
 ( npm install @kolkov/ngx-gallery --save )
 https://github.com/kolkov/ngx-gallery
 
+
+(Cloudinary package)
+dotnet add package CloudinaryDotNet --version 1.11.0
+
+(ng2 file upload)
+https://github.com/valor-software/ng2-file-upload
+
 --------------------
+
+angular datePipe
