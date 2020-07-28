@@ -26,7 +26,7 @@ constructor(private http: HttpClient) {}
   }
 
   login(model: any){
-    // debugger;
+    debugger;
     return this.http.post(this.baseUrl + 'login', model).pipe(
         map((response: any) =>{
           const user = response;
@@ -41,9 +41,9 @@ constructor(private http: HttpClient) {}
       );
   }
 
-  register(model: any){
+  register(user: User){
     //debugger;
-    return this.http.post(this.baseUrl + 'register', model);
+    return this.http.post(this.baseUrl + 'register', user);
   }
 
   loggedIn(){
