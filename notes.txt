@@ -75,5 +75,11 @@ https://github.com/valor-software/ng2-file-upload
 (formating the date - package)
 https://www.npmjs.com/package/time-stamp
 --------------------
+Inject component in another (to user services with same values)
 
+https://stackoverflow.com/questions/34700438/global-events-in-angular
+
+https://stackoverflow.com/questions/34376854/delegation-eventemitter-or-observable-in-angular?noredirect=1&lq=1
+
+--------------------
 angular datePipe
